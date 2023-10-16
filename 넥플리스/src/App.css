@@ -1,0 +1,66 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable.css");
+
+body {font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif; background: #000; color: rgba(255,255,255,0.7);}
+
+* {box-sizing: border-box;}
+li {list-style: none;}
+a {text-decoration: none; color: inherit;}
+
+/* loading */
+.loading {display: flex; justify-content: center; align-items: center; height: calc(100vh - 120px);}
+
+/* banner */
+.banner {height: 860px; background-repeat: no-repeat; background-size: cover; display: flex; align-items: center;}
+
+.banner::before{content: ''; position: absolute; left: 0; width: 100%; height: 860px; background: linear-gradient(to rigth, rgba(0,0,0,0.7) ,transpareht);}
+.banner-info{width: 40%; margin-left: 5%; z-index: 1; color: #fff;}
+.banner-info h1{font-size: 100px; font-weight: 600; margin-bottom: 20px;}
+.banner-info p {font-size: 20px; line-height: 1.8; color: rgba(255,255,255,0.7);}
+
+/* 메뉴영역 */
+.nav-area {margin-left: 30px;}
+.navbar {padding: 0 2.8%;}
+.nav-item {margin: 20px; color: #a2a2a2;}
+.nav-item:hover {color: #fff;}
+
+
+/* contents->home.js */
+.contents {}
+.contents h2{ margin: 30px; font-size: 30px; font-weight: 400;}
+.contents .card{width: 300px; height: 200px; margin-bottom: 50px; border-color:#333;}
+
+
+/* card */
+.card { background-repeat: no-repeat; background-position: center; background-size: cover; margin: 0 10px; }
+.card .card-overlay {background: rgba(0,0,0,0.3); width: 100%; height: 100%; color: #fff; padding: 20px; box-sizing: border-box; transition: all 0.3s; opacity: 0;}
+
+.card .card-overlay:hover {opacity: 1;}
+.card .card-overlay h1 {font-size: 24px; font-weight: 500; margin-bottom: 30px;}
+.card .card-overlay .vote-group span {margin: 0 5px; font-size: 14px; padding: 3px 4px; border-radius: 2px; margin: 0 3px;}
+.card .card-overlay .vote-group span + span {background: #6b1717; color: #fff;}
+
+.card-overlay .genre span {margin: 3px;}
+
+/* card image */
+.detail_section {padding: 100px 0; }
+.detail-img{width: 100%; height: 600px; background-repeat: no-repeat; background-position: center; background-size: contain;}
+
+
+/* detail-info-group */
+.detail-info {margin: 10px 0;}
+.detail-vote {margin-right: 10px; border-bottom: 2px solid rgba(234, 77, 77, 0.7); padding-bottom: 5px; color: rgba(255,255,255,0.9);}
+.detail-adult {display: inline-block; background:  rgba(234, 77, 77, 0.7); color: #fff; padding: 2px 8px; border-radius: 10px;}
+
+/* detail-info2 */
+.detail-info2 span {margin: 0 15px 15px 0; color: #000;}
+
+
+
+
+
+
+
+
+
+
+
